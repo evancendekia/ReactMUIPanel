@@ -3,19 +3,19 @@ import { tokens } from "../theme";
 export const mockDataTeam = [
   {
     id: 1,
+    name: "Evan Cendekia",
+    email: "evan.cendekia@gmail.com",
+    age: 25,
+    phone: "(+62)852-8448-2911",
+    access: "super admin",
+  },
+  {
+    id: 2,
     name: "Jon Snow",
     email: "jonsnow@gmail.com",
     age: 35,
     phone: "(665)121-5454",
     access: "admin",
-  },
-  {
-    id: 2,
-    name: "Cersei Lannister",
-    email: "cerseilannister@gmail.com",
-    age: 42,
-    phone: "(421)314-2288",
-    access: "manager",
   },
   {
     id: 3,
@@ -72,6 +72,14 @@ export const mockDataTeam = [
     age: 65,
     phone: "(444)555-6239",
     access: "admin",
+  },
+  {
+    id: 10,
+    name: "Cersei Lannister",
+    email: "cerseilannister@gmail.com",
+    age: 42,
+    phone: "(421)314-2288",
+    access: "manager",
   },
 ];
 
